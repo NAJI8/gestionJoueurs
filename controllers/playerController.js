@@ -53,3 +53,4 @@ exports.deletePlayer = async (req, res) => {
         ? res.status(202).json({ message: "Player deleted successfully" })
         : res.status(404).json({ error: "Player Not Found" });
 };
+

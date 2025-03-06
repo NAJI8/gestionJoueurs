@@ -9,3 +9,4 @@ router.put("/:id", playerController.updatePlayer);
 router.delete("/:id", playerController.deletePlayer);
 
 module.exports = router;
+
